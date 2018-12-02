@@ -1,21 +1,48 @@
-<script>
+<main id="internal">
+ <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="header-fixed">
+    <div class="container">
 
-  $('#header').addClass('header-fixed');
-  console.log($('#header'));
+      <div id="logo" class="pull-left">
+        <!-- <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a> -->
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <h1><a href="#hero">Sistemas de freno</a></h1>
+        <h2>Camiones, micros, maquinaria agr&iacute;cola y veh&iacute;culos pesados</h2>
+      </div>
 
-</script>
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          
+          <li class="menu-has-children"><a href="">Servicios</a>
+            <ul>
+              <li><a href="#">Reparaci&oacute;n de unidades</a></li>
+              <li><a href="#">Venta de respuestos</a></li>
+              <li><a href="#">Fabricaci&oacute;n de sistemas de freno</a></li>
+            </ul>
+          </li>
+          
+          <li class="menu-active"><a href="#/productos">Productos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
 
-<main id="main">
+
     <!--==========================
       Portfolio Section
     ============================-->
     <section id="portfolio">
       <div class="container wow fadeInUp">
         <div class="section-header">
-          <h3 class="section-title">Portfolio</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Productos</h3>
+          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
         </div>
-        <div class="row">
+        <!-- <div class="row">
 
           <div class="col-lg-12">
             <ul id="portfolio-flters">
@@ -26,7 +53,7 @@
               <li data-filter=".filter-web">Web</li>
             </ul>
           </div>
-        </div>
+        </div> -->
 
         <div class="row" id="portfolio-wrapper">
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">
@@ -40,13 +67,21 @@
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-            <a href="">
+            <a data-toggle="modal" data-target="#prodModal" href="">
               <img src="img/portfolio/web2.jpg" alt="">
               <div class="details">
                 <h4>Web 2</h4>
                 <span>Alored dono par</span>
               </div>
             </a>
+          </div>
+
+          <div class="modal fade" id="prodModal" tabindex="-1" role="dialog" aria-labelledby="prodModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">hola mundo</div>
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 portfolio-item filter-app">

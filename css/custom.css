@@ -78,6 +78,31 @@ CONTACT SECTION
 	color: #2dca98;
 }
 
+
+
+#internal #header {
+    background: rgba(52, 59, 64, 0.9);
+    padding: 20px 0;
+    height: 72px;
+}
+#internal #header #logo {
+    transform: scale(0.9);
+    margin-top: -19px;
+}
+#internal .section-header{
+	margin: 40px 0 70px;
+}
+
+#internal #services .box {
+	height: auto;
+	min-height: 200px;
+	padding-bottom: 20px; 
+}
+
+#internal.ser-tf .section-header{
+	margin: 40px 0;
+}
+
 /*
 MOBILE
 */

@@ -54,40 +54,9 @@
 
 <body>
 
-  <!--==========================
-  Header
-  ============================-->
-  <header id="header">
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-        <!-- <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a> -->
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <h1><a href="#hero">Sistemas de freno</a></h1>
-        <h2>Camiones, micros, maquinaria agr&iacute;cola y veh&iacute;culos pesados</h2>
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#hero">Inicio</a></li>
-          <li class="menu-has-children"><a href="#about">Nosotros</a></li>
-          
-          <li><a href="#services">Servicios</a>
-            <ul>
-              <li><a href="#">Reparaci&oacute;n de unidades</a></li>
-              <li><a href="#">Venta de respuestos</a></li>
-              <li><a href="#">Fabricaci&oacute;n de sistemas de freno</a></li>
-            </ul>
-          </li>
-          
-          <li><a href="#/productos">Productos</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
-
   <div id="vista"></div>
+
+
   
 
   <!--==========================
@@ -111,6 +80,14 @@
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<div class="modal fade" id="prodModal" tabindex="-1" role="dialog" aria-labelledby="prodModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">hola mundo</div>
+    </div>
+  </div>
+</div>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
@@ -144,6 +121,7 @@
   <!-- Propias -->
   <script src="lib/lib.js"></script>
   <script src="js/rutas.js"></script>
+  <script src="js/controladores/productos.js" "></script>
 
 </body>
 </html>
