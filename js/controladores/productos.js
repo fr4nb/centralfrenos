@@ -2,10 +2,22 @@
 	
 	_.controlador('productos', {
 
-		$('#prodModal').on('shown.bs.modal', function(){
-      		console.log('modalContent');
-    	});
+
+
+		a: function(){
+
+
+			
+	      		console.log('modalContent');
+	    	
+
+		}
+
+
+		
+		
 
 	});
+
 
 })(window, document); 

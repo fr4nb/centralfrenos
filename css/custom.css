@@ -103,6 +103,27 @@ CONTACT SECTION
 	margin: 40px 0;
 }
 
+
+#prodModal .modal-body {
+	text-align: center;
+}
+#prodModal h3 {
+	padding-top: 35px;
+    font-size: 22px;
+}
+#internal #portfolio .portfolio-item {
+	height: 300px;
+}
+#portfolio .portfolio-item .details {
+	height: 70px;
+	bottom: -40px;
+}
+
+
+#internal #about {
+	padding-top: 110px;
+}
+
 /*
 MOBILE
 */
